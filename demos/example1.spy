@@ -1,0 +1,10 @@
+#(=> Strype:1:std
+'''Will say hi in French'''
+#(=> Section:Imports
+#(=> Section:Definitions
+def sayHi ( ) :
+    print("Salut!")
+#(=> Section:Main
+print("looookkkk...")
+sayHi()
+#(=> Section:End

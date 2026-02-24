@@ -1,0 +1,9 @@
+- name: Test say Hi in French
+  description: Showing how to say Hi in French...
+  image: example1.png
+  file: example1.spy
+
+- name: Test count in French
+  description: Showing how to count in French...
+  image: example2.png
+  file: example2.spy

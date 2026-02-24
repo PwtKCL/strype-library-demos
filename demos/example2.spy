@@ -1,0 +1,17 @@
+#(=> Strype:1:std
+'''Choose a number and see count...'''
+#(=> Section:Imports
+#(=> Section:Definitions
+def returnVal (countTo ) :
+    global numbers
+    if countTo > 10 OR countTo <= 0 :
+        print("I cannot count to the value you gave me sorry")
+    else :
+        for id in range(0, countTo) :
+            print(numbers[id])
+#(=> Section:Main
+numbers  = ["un","deux","trois","quatre","cinq","six","sept","huit","neuf","dix"] 
+computer_choice  = get_computer_choice() 
+result  = determine_winner(user_choice,computer_choice) 
+print(result) 
+#(=> Section:End
